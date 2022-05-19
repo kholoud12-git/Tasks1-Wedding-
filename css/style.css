@@ -1,0 +1,298 @@
+
+* {
+    box-sizing: border-box !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width:100%;
+}
+.top{
+    background: url(../images/banner.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    background-position: center;
+    border-radius: 0px 0px 170px 170px;
+    background-size: cover;
+}
+nav{
+    margin:0px 200px;
+}
+.container-fluid{
+    background-color: white;
+    border:0px;
+    border-radius: 50px;
+    padding:20px 70px;
+    margin:40px 0px;
+}
+.nav-item{
+    padding:0px 10px;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
+    color: #f55171;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover{
+    color:black
+}
+header .container{
+    text-align: center;
+    font-weight: bold;
+    color:white
+}
+.text{
+    padding:90px 0px;
+}
+.text h1{
+    font-weight: bold;
+}
+.container .text span{
+    font-size: 40px;
+}
+.container .text button{
+    border:1px solid white;
+    font-size: 20px;
+    padding:20px;
+    margin:30px 0px 0px 0px;
+}
+.container .text button a{
+    text-decoration: none;
+    color:#f55171;
+}
+
+/****section****/
+section{
+    margin:100px 0px;
+}
+.container{
+    margin: 50px auto;
+    text-align: center;
+}
+.container .info h1{
+    font-size: 40px;
+    color:black;
+    font-family: cursive;
+}
+.container .info .line{
+    border:1px solid #f55171;
+    width:30%;
+    margin:10px 380px;
+}
+.container .info .title{
+    margin: 5px 0px;
+    padding: 20px 0px;
+}
+.container .img-line{
+    display: flex;
+    margin:0px 20px;
+}
+.container .img-line .img1, .container .img-line .img2{
+    padding:30px 50px;
+}
+.container .img1 img, .container .img2 img{
+    border:20px solid #f55171;
+    border-radius: 360px;
+}
+.container .parg{
+    font-size: 20px;
+    text-align: center;
+}
+.container .parg button{
+    border:1px solid black;
+    margin:30px 0px;
+    font-size: 22px;
+    padding: 20px 50px;
+    color: white;
+    background-color: black;
+}
+
+/********artical******/
+article .plan{
+    background-color: #f55171;
+    color:white;
+    text-align: center;
+    padding:25px 30px
+}
+article .title{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+article .title h1{
+    border-bottom: 1px solid white;
+    max-width: fit-content;
+    margin:0px auto;
+    padding:5px 0px;
+    font-family: cursive;
+}
+article .logs{
+    display: flex;
+    margin:50px 30px;
+    padding:0px 30px
+
+}
+article .logs .logo {
+    padding:30px 0px; 
+    padding: 0px 20px;
+    text-align: center;
+}
+article .logs .logo .log-img{
+    width:150px;
+    height: 150px;
+    margin:20px auto;
+    padding:20px;
+    border-radius: 150px;
+    border:5px solid white;
+}
+article .logs .logo h2{
+    padding:20px 0px;
+}
+article .logs .logo p{
+    font-size: 18px;
+}
+article button{
+    border:0px;
+    font-size: 24px;
+    color:black;
+    padding:20px 60px
+}
+article .logs .logo .log-img:hover{
+    transform: scale(0.7,0.7);
+}
+/*******register***********/
+.register{
+    margin:80px 0px;
+    text-align: center;
+}
+.register .regist .title h1{
+    font-family: cursive;
+    border-bottom:1px solid #f55171;
+    max-width: fit-content;
+    margin:0px auto;
+    padding:10px;
+}
+.register .regist p{
+    font-size: 20px;
+}
+.register .regist .form{
+    margin:40px 180px;
+    padding:20px 0px;
+    text-align: center;
+}
+.register .regist .form input{
+    margin: 10px 0px;
+    height: 60px;
+    border:2px solid black
+}
+input[placeholder]{
+    color:gray;
+    font-size: 20px;
+}
+.register .regist .form .row .col-12 button{
+    border:0px;
+    color:white;
+    font-size: 20px;
+    padding:10px 50px;
+    margin:30px;
+    background-color: black;
+}
+.register .regist .form .row .col-12 button:hover{
+    background-color: #f55171;
+    border-radius: 20px;
+    transition:background-color 2s, border-radius 2s;
+}
+/*******************************************************************/
+.testimonial{
+    background-color: #f55171;
+    text-align: center;
+    padding:60px 0px;
+    color:white;
+    margin-bottom: 0px;
+}
+.testimonial .testim .title h1{
+    font-family: cursive;
+    max-width: fit-content;
+    margin:0px auto;
+    border-bottom: 1px solid white;
+}
+.testimonial .testim p{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+.testim .slides{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding:20px;
+}
+
+.testim .slides .slide{
+    color:black;
+    margin:10px 5px;
+}
+.slide .row{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-align: left;
+}
+.slide .row .col{
+    position: absolute;
+    margin-bottom:90px;
+}
+.slide .slide-title{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    margin:20px 0px;
+}
+.slide .slide-img img{
+    border:10px solid white;
+    border-radius: 84px;
+    margin-right:60px;
+}
+.slide .slide-parg{
+    background-color: white;
+    margin:90px 20px;
+    border-radius: 100px;
+    padding: 0px;
+    
+}
+.slide .slide-parg p{
+    font-size: 18px;
+    padding:20px 5px 
+}
+/*****************************footer******************************************/
+footer{
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    color:white;
+    margin-bottom: 0px;
+    padding:60px 90px
+}
+footer .foot{
+    margin: 0px;
+}
+footer .foot span{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: cursive;
+    color:#f55171
+}
+footer .foot h1{
+    font-family: cursive;
+    padding: 40px 0px;
+    border-bottom: 1px solid gray;
+}
+footer .foot p{
+    padding:10px 0px;
+    font-size: 18px;
+}
